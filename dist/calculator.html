@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+    <div class="bg-orange-300 p-6 rounded shadow-md max-w-xs md:max-w-md md:p-12">
+        <div id="display" class="text-right mb-4 p-2 bg-gray-200 rounded md:text-lg md:mb-6 md:p-4"></div>
+        <div class="grid grid-cols-4 gap-2 md:gap-4">
+            <button class="col-span-3 bg-gray-300 p-2 rounded md:p-4 clear">C</button>
+            <button class="bg-blue-500 text-white py-2 rounded md:p-4 number" id="divide">/</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4 number">7</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4 number">8</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4  number">9</button>
+            <button class="bg-blue-500 text-white py-2 rounded md:p-4 number" id="multiply">*</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4 number">4</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4 number">5</button>
+            <button class="bg-gray-300 p-2 rounded md:py-4 number">6</button>
+            <button class="bg-blue-500 text-white p-2 rounded md:p-4 number" id="subtract">-</button>
+            <button class="bg-gray-300 p-2 rounded md:p-4 number">1</button>
+            <button class="bg-gray-300 p-2 rounded md:p-4 number">2</button>
+            <button class="bg-gray-300 p-2 rounded md:p-4 number">3</button>
+            <button class="bg-blue-500 text-white p-2 rounded md:p-4 number" id="add">+</button>
+            <button class="col-span-2 bg-gray-300 p-2 rounded md:p-4 number">0</button>
+            <button class="bg-gray-300 p-2 rounded md:p-4 number">.</button>
+            <button class="bg-green-500 text-white p-2 rounded md:p-4 equalsto">=</button>
+        </div>
+        <button class="bg-red-500 text-white p-2 mt-3 ml-16 rounded md:p-4 delete">Delete</button>
+    </div>
+    <script src="calci.js"></script>
+</body>
+</html>
+
